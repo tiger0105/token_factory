@@ -1,0 +1,30 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "description": "Smart Contracts for Cocity Tokens",
+  "main": " ",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta2"
+  },
+  "devDependencies": {
+    "openzeppelin-solidity": "^2.1.0",
+    "truffle": "^5.0.2"
+  },
+  "scripts": {
+    "test": "truffle test --network ganache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.di.unito.it:utbi/smart-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "smart contracts",
+    "ethereum"
+  ],
+  "author": "Alessandro Sanino <sanino@di.unito.it>",
+  "license": "GPLv3"
+}
